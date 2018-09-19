@@ -1,0 +1,16 @@
+{
+  "folders": [
+    {
+      "path": "."
+    }
+  ],
+  "settings": {
+    "tslint.autoFixOnSave": true,
+    "files.exclude": {
+      "**/*.js": true,
+      "**/*.js.map": true,
+      // "**/*.js": { "when": "$(basename).ts" },
+      "**/*.jsx": { "when": "$(basename).tsx" }
+    }
+  }
+}

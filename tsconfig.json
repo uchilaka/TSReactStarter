@@ -1,0 +1,11 @@
+{
+  "compilerOptions": {
+    "allowJs": false,
+    "jsx": "react",
+    "target": "es6",
+    "module": "commonjs",
+    "noImplicitUseStrict": true
+  },
+  "include": ["src/**/*.tsx", "src/**/*.ts"],
+  "exclude": ["src/registerServiceWorker.js", "node_modules"]
+}
